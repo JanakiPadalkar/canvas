@@ -1,0 +1,46 @@
+# Understanding a Food Delivery Marketplace
+
+## 1. The Business Problem
+
+A food delivery platform must coordinate customers, restaurants, orders, and delivery partners. Each order involves several decisions that influence customer experience, delivery efficiency, and operating costs.
+
+## 2. The Main Processes
+
+| Process | Business Question | Data Science or Mathematical Approach |
+|---|---|---|
+| Recommendation | Which restaurants should a customer see? | Recommendation systems and ranking |
+| Demand forecasting | How many orders might arrive? | Time-series forecasting |
+| Preparation-time prediction | When will the restaurant finish preparing an order? | Regression and predictive modelling |
+| Delivery partner assignment | Which available partner should receive an order? | Assignment optimisation |
+| Routing | Which delivery route should be selected? | Route optimisation |
+| Pricing and incentives | What incentives could help balance demand and supply? | Statistical modelling and optimisation |
+| Cancellation prediction | Which orders are at risk of cancellation? | Classification and survival analysis |
+| Retention | Which customers are likely to return? | Cohort analysis and customer modelling |
+
+## 3. How the Processes Connect
+
+A platform can forecast incoming demand, estimate restaurant preparation times, and predict delivery times. These predictions can then inform decisions about assigning delivery partners and allocating resources.
+
+The processes are connected rather than independent. For example, a sudden increase in orders can increase restaurant waiting times and reduce delivery partner availability.
+
+## 4. An Important Distinction
+
+**Data Science predicts. Operations Research helps decide.**
+
+For example:
+
+- A forecasting model estimates how many orders may arrive in an area.
+- An optimisation model determines how available delivery partners could be allocated across those orders.
+
+The forecast provides information. The optimisation model uses information and constraints to recommend a decision.
+
+## 5. Questions to Explore
+
+1. What data would be required to forecast hourly order demand?
+2. Why might the nearest delivery partner not always be the best choice?
+3. How could a platform balance delivery speed against operating cost?
+4. How would we measure whether a new assignment strategy actually improves performance?
+
+## 6. Today's Takeaway
+
+Food-Tech Data Science is not limited to predicting outcomes. It combines statistical reasoning, predictive modelling, optimisation, and business decision-making to improve the performance of a connected marketplace.
