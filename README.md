@@ -19,13 +19,13 @@ My goal is to understand how data-driven systems solve practical business and op
 
 ## Learning Roadmap
 
-| Stage | Focus | Status |
-|---|---|---|
-| 1 | Understand food delivery marketplace processes | In progress |
-| 2 | Explore data and build analytical foundations | Planned |
-| 3 | Develop forecasting models | Planned |
-| 4 | Explore optimisation and resource allocation | Planned |
-| 5 | Evaluate models and business impact | Planned |
+| Stage | Focus |
+|---|---|
+| 1 | Understand food delivery marketplace processes |
+| 2 | Explore data and build analytical foundations |
+| 3 | Develop forecasting models |
+| 4 | Explore optimisation and resource allocation |
+| 5 | Evaluate models and business impact |
 
 ## Repository Structure
 
